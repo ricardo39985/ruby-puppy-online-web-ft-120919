@@ -16,6 +16,6 @@ class Dog
     all.clear
   end
   def self.print_all
-    print self.all
+    pruts self.all
   end
 end
