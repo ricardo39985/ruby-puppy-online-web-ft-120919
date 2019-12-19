@@ -13,7 +13,7 @@ class Dog
     @@all
   end
   def self.clear_all
-    @all.clear
+    @all= []
   end
   def self.print_all
     @@all.each{ |e|puts e  }
