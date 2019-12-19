@@ -16,6 +16,6 @@ class Dog
     all.clear
   end
   def self.print_all
-    pint self.all
+    print self.all
   end
 end
