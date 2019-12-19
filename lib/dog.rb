@@ -16,6 +16,6 @@ class Dog
     all.clear
   end
   def self.print_all
-    pruts self.all
+    puts self.all
   end
 end
