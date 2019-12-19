@@ -16,6 +16,6 @@ class Dog
     all.clear
   end
   def self.print_all
-  self.all.each { |e|  print e.split('=')}
+  self.all.each { |e|  print e.to_s.split('=')}
   end
 end
